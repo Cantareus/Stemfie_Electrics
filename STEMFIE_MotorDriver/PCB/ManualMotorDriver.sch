@@ -1137,163 +1137,6 @@ wire to board 1.25 mm (.049 inch) pitch header</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="LP2985-33DBVR">
-<packages>
-<package name="SOT95P280X145-5N">
-<circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.41" y="1.05" radius="0.1" width="0.2" layer="51"/>
-<text x="-2.6" y="2" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.6" y="-2" size="1.016" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-0.33" y1="1.45" x2="0.33" y2="1.45" width="0.127" layer="21"/>
-<wire x1="0.8" y1="0.335" x2="0.8" y2="-0.335" width="0.127" layer="21"/>
-<wire x1="0.33" y1="-1.45" x2="-0.33" y2="-1.45" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-2.11" y1="1.7" x2="2.11" y2="1.7" width="0.05" layer="39"/>
-<wire x1="2.11" y1="1.7" x2="2.11" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="2.11" y1="-1.7" x2="-2.11" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="-2.11" y1="-1.7" x2="-2.11" y2="1.7" width="0.05" layer="39"/>
-<smd name="1" x="-1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="2" x="-1.255" y="0" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="3" x="-1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="4" x="1.255" y="-0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-<smd name="5" x="1.255" y="0.95" dx="1.21" dy="0.59" layer="1" roundness="50"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LP2985-33DBVR">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-10.16" y="8.62" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-10.16" y="-10.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<pin name="ON/!OFF" x="-15.24" y="-2.54" length="middle" direction="in"/>
-<pin name="VIN" x="-15.24" y="5.08" length="middle" direction="in"/>
-<pin name="BYPASS" x="-15.24" y="0" length="middle"/>
-<pin name="VOUT" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LP2985-33DBVR" prefix="U">
-<description>150-mA, 16-V, low-dropout voltage regulator with enable 5-SOT-23 -40 to 125  &lt;a href="https://pricing.snapeda.com/parts/LP2985-33DBVR/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="LP2985-33DBVR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT95P280X145-5N">
-<connects>
-<connect gate="G$1" pin="BYPASS" pad="4"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="ON/!OFF" pad="3"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VOUT" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" 150-mA, 16-V, low-dropout voltage regulator with enable 5-SOT-23 -40 to 125 "/>
-<attribute name="MF" value="Texas Instruments"/>
-<attribute name="MP" value="LP2985-33DBVR"/>
-<attribute name="PACKAGE" value="SOT-23-5 Texas Instruments"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LP2985-33DBVR/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="L9110">
-<packages>
-<package name="SO-08">
-<description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
-150-mil body, package type SN</description>
-<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="L9110">
-<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="OA" x="-10.16" y="5.08" length="short" direction="out"/>
-<pin name="VCC@1" x="-10.16" y="2.54" length="short" direction="pwr"/>
-<pin name="VCC@2" x="-10.16" y="0" length="short" direction="pwr"/>
-<pin name="OB" x="-10.16" y="-2.54" length="short" direction="out"/>
-<pin name="GND@2" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
-<pin name="IA" x="10.16" y="0" length="short" direction="in" rot="R180"/>
-<pin name="IB" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
-<pin name="GND@1" x="10.16" y="5.08" length="short" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="L9110">
-<description> &lt;a href="https://pricing.snapeda.com/parts/L9110%20%28SOP-8%29/Asic/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="L9110" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SO8" package="SO-08">
-<connects>
-<connect gate="G$1" pin="GND@1" pad="8"/>
-<connect gate="G$1" pin="GND@2" pad="5"/>
-<connect gate="G$1" pin="IA" pad="6"/>
-<connect gate="G$1" pin="IB" pad="7"/>
-<connect gate="G$1" pin="OA" pad="1"/>
-<connect gate="G$1" pin="OB" pad="4"/>
-<connect gate="G$1" pin="VCC@1" pad="2"/>
-<connect gate="G$1" pin="VCC@2" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Not in stock"/>
-<attribute name="DESCRIPTION" value=" Motor control driver chip "/>
-<attribute name="MF" value="Asic"/>
-<attribute name="MP" value="L9110 (SOP-8)"/>
-<attribute name="PACKAGE" value="Package "/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -10261,6 +10104,58 @@ MAX3223-MAX3243.pdf</description>
 <text x="-6.6802" y="-6.35" size="0.635" layer="47" ratio="4" rot="SR0">0.03in/0.762mm</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="SO-08" urn="urn:adsk.eagle:footprint:7566725/1">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
+
+Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
+<wire x1="-2.754" y1="3.9" x2="2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="3.9" x2="2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="2.754" y1="-3.9" x2="-2.754" y2="-3.9" width="0.2" layer="39"/>
+<wire x1="-2.754" y1="-3.9" x2="-2.754" y2="3.9" width="0.2" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-3.175" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+<package name="SOT95P280X145-5N" urn="urn:adsk.eagle:footprint:16378620/1">
+<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<circle x="-1.354" y="1.7525" radius="0.25" width="0" layer="21"/>
+<wire x1="-0.85" y1="1.5625" x2="0.85" y2="1.5625" width="0.12" layer="21"/>
+<wire x1="-0.85" y1="-1.5625" x2="0.85" y2="-1.5625" width="0.12" layer="21"/>
+<wire x1="0.85" y1="-1.5" x2="-0.85" y2="-1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="-1.5" x2="-0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="-0.85" y1="1.5" x2="0.85" y2="1.5" width="0.12" layer="51"/>
+<wire x1="0.85" y1="1.5" x2="0.85" y2="-1.5" width="0.12" layer="51"/>
+<smd name="1" x="-1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="2" x="-1.2644" y="0" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="3" x="-1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="4" x="1.2644" y="-0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<smd name="5" x="1.2644" y="0.95" dx="1.1864" dy="0.5971" layer="1"/>
+<text x="0" y="2.6375" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.1975" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="TSSOP20" urn="urn:adsk.eagle:package:4349/3" type="model">
@@ -10268,6 +10163,21 @@ MAX3223-MAX3243.pdf</description>
 MAX3223-MAX3243.pdf</description>
 <packageinstances>
 <packageinstance name="TSSOP20"/>
+</packageinstances>
+</package3d>
+<package3d name="SO-08" urn="urn:adsk.eagle:package:7566865/2" type="model">
+<description>&lt;b&gt;D (R-PDSO-G8)&lt;/b&gt; Plastic Small Outline Package&lt;p&gt;
+
+Source: http://focus.ti.com/lit/ds/symlink/sn65als176.pdf</description>
+<packageinstances>
+<packageinstance name="SO-08"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P280X145-5N" urn="urn:adsk.eagle:package:16378354/2" type="model">
+<description>5-SOT23, 0.95 mm pitch, 2.80 mm span, 2.90 X 1.60 X 1.45 mm body
+&lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.80 mm span with body size 2.90 X 1.60 X 1.45 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT95P280X145-5N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -10365,6 +10275,33 @@ MAX3223-MAX3243.pdf</description>
 <wire x1="58.42" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="28.2956" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="27.6606" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="L9110">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="OA" x="-10.16" y="5.08" length="short" direction="out"/>
+<pin name="VCC@1" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="VCC@2" x="-10.16" y="0" length="short" direction="pwr"/>
+<pin name="OB" x="-10.16" y="-2.54" length="short" direction="out"/>
+<pin name="GND@2" x="10.16" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="IA" x="10.16" y="0" length="short" direction="in" rot="R180"/>
+<pin name="IB" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND@1" x="10.16" y="5.08" length="short" direction="pwr" rot="R180"/>
+</symbol>
+<symbol name="LP2985-33DBVR">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.62" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="ON/!OFF" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="VIN" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="BYPASS" x="-15.24" y="0" length="middle"/>
+<pin name="VOUT" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10471,6 +10408,70 @@ MAX3223-MAX3243.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="L9110">
+<description> &lt;a href="https://pricing.snapeda.com/parts/L9110%20%28SOP-8%29/Asic/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="L9110" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SO8" package="SO-08">
+<connects>
+<connect gate="G$1" pin="GND@1" pad="8"/>
+<connect gate="G$1" pin="GND@2" pad="5"/>
+<connect gate="G$1" pin="IA" pad="6"/>
+<connect gate="G$1" pin="IB" pad="7"/>
+<connect gate="G$1" pin="OA" pad="1"/>
+<connect gate="G$1" pin="OB" pad="4"/>
+<connect gate="G$1" pin="VCC@1" pad="2"/>
+<connect gate="G$1" pin="VCC@2" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7566865/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="DESCRIPTION" value=" Motor control driver chip "/>
+<attribute name="MF" value="Asic"/>
+<attribute name="MP" value="L9110 (SOP-8)"/>
+<attribute name="PACKAGE" value="Package "/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LP2985-33DBVR" prefix="U">
+<description>150-mA, 16-V, low-dropout voltage regulator with enable 5-SOT-23 -40 to 125  &lt;a href="https://pricing.snapeda.com/parts/LP2985-33DBVR/Texas%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LP2985-33DBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-5N">
+<connects>
+<connect gate="G$1" pin="BYPASS" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="ON/!OFF" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" 150-mA, 16-V, low-dropout voltage regulator with enable 5-SOT-23 -40 to 125 "/>
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="MP" value="LP2985-33DBVR"/>
+<attribute name="PACKAGE" value="SOT-23-5 Texas Instruments"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LP2985-33DBVR/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -10484,8 +10485,8 @@ MAX3223-MAX3243.pdf</description>
 </classes>
 <parts>
 <part name="U1" library="STEMFIE_Electrics" deviceset="STM32F030F4P6" device="" package3d_urn="urn:adsk.eagle:package:4349/3"/>
-<part name="U2" library="LP2985-33DBVR" deviceset="LP2985-33DBVR" device=""/>
-<part name="U3" library="L9110" deviceset="L9110" device="SO8"/>
+<part name="U2" library="STEMFIE_Electrics" deviceset="LP2985-33DBVR" device="" package3d_urn="urn:adsk.eagle:package:16378354/2"/>
+<part name="U3" library="STEMFIE_Electrics" deviceset="L9110" device="SO8" package3d_urn="urn:adsk.eagle:package:7566865/2"/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -10493,8 +10494,7 @@ MAX3223-MAX3243.pdf</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10K"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="MOTOR_A" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:30841/1" value=""/>
 <part name="MOTOR_B" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD2,54-5,08" package3d_urn="urn:adsk.eagle:package:30841/1" value=""/>
@@ -10506,7 +10506,7 @@ MAX3223-MAX3243.pdf</description>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-05" device="048" package3d_urn="urn:adsk.eagle:package:8078563/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="EVU" device="L" package3d_urn="urn:adsk.eagle:package:22736/1" technology="F3"/>
+<part name="R1" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="EVU" device="L" package3d_urn="urn:adsk.eagle:package:22736/1" technology="F3" value="10K"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="100nF"/>
@@ -10524,6 +10524,8 @@ MAX3223-MAX3243.pdf</description>
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="2.2uF"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100pF"/>
+<part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10560,23 +10562,20 @@ MAX3223-MAX3243.pdf</description>
 <instance part="GND3" gate="1" x="93.98" y="93.98" smashed="yes">
 <attribute name="VALUE" x="91.44" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="22.86" y="55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.3614" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="52.07" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND4" gate="1" x="22.86" y="45.72" smashed="yes">
-<attribute name="VALUE" x="20.32" y="43.18" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="22.86" y="71.12" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.3586" y="74.93" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="19.558" y="74.93" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND5" gate="1" x="55.88" y="2.54" smashed="yes">
 <attribute name="VALUE" x="53.34" y="0" size="1.778" layer="96"/>
 </instance>
-<instance part="MOTOR_A" gate="G$1" x="20.32" y="15.24" smashed="yes">
-<attribute name="NAME" x="19.177" y="17.0942" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.177" y="11.938" size="1.778" layer="96"/>
+<instance part="MOTOR_A" gate="G$1" x="17.78" y="15.24" smashed="yes">
+<attribute name="NAME" x="14.097" y="17.0942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.637" y="11.938" size="1.778" layer="96"/>
 </instance>
-<instance part="MOTOR_B" gate="G$1" x="20.32" y="7.62" smashed="yes">
-<attribute name="NAME" x="19.177" y="9.4742" size="1.778" layer="95"/>
-<attribute name="VALUE" x="19.177" y="4.318" size="1.778" layer="96"/>
+<instance part="MOTOR_B" gate="G$1" x="17.78" y="7.62" smashed="yes">
+<attribute name="NAME" x="14.097" y="4.3942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.637" y="4.318" size="1.778" layer="96"/>
 </instance>
 <instance part="V+" gate="G$1" x="30.48" y="109.22" smashed="yes">
 <attribute name="NAME" x="29.337" y="111.0742" size="1.778" layer="95"/>
@@ -10619,8 +10618,8 @@ MAX3223-MAX3243.pdf</description>
 <attribute name="VALUE" x="27.94" y="17.78" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="G$1" x="114.3" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="120.269" y="67.31" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="118.11" y="67.31" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="117.729" y="69.85" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="118.11" y="62.23" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND8" gate="1" x="101.6" y="2.54" smashed="yes">
 <attribute name="VALUE" x="99.06" y="0" size="1.778" layer="96"/>
@@ -10677,6 +10676,13 @@ MAX3223-MAX3243.pdf</description>
 <instance part="C6" gate="G$1" x="106.68" y="104.14" smashed="yes">
 <attribute name="NAME" x="108.204" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="108.204" y="99.441" size="1.778" layer="96"/>
+</instance>
+<instance part="C7" gate="G$1" x="22.86" y="12.7" smashed="yes">
+<attribute name="NAME" x="24.384" y="13.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.384" y="8.001" size="1.778" layer="96"/>
+</instance>
+<instance part="P+13" gate="VCC" x="22.86" y="81.28" smashed="yes">
+<attribute name="VALUE" x="20.32" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -10756,6 +10762,11 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="106.68" y1="106.68" x2="106.68" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="76.2" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -10779,11 +10790,6 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="88.9" y1="99.06" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="99.06" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="22.86" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND@1"/>
@@ -10842,7 +10848,7 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="U1" gate="A" pin="NRST"/>
 <wire x1="40.64" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="66.04" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 <junction x="22.86" y="63.5"/>
 <label x="20.32" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
@@ -10920,6 +10926,9 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="U3" gate="G$1" pin="OA"/>
 <wire x1="33.02" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="MOTOR_A" gate="G$1" pin="P"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="15.24" x2="20.32" y2="15.24" width="0.1524" layer="91"/>
+<junction x="22.86" y="15.24"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -10927,6 +10936,9 @@ MAX3223-MAX3243.pdf</description>
 <pinref part="U3" gate="G$1" pin="OB"/>
 <wire x1="33.02" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="MOTOR_B" gate="G$1" pin="P"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="7.62" x2="20.32" y2="7.62" width="0.1524" layer="91"/>
+<junction x="22.86" y="7.62"/>
 </segment>
 </net>
 <net name="N$3" class="0">
